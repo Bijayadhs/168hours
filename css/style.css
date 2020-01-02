@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+nav img {
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 180px;
+    margin: -20px;
+}
+
+ul.right-menu {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+}
+
+li {
+    list-style: none;
+
+
+}
+
+li a {
+    text-decoration: none;
+    padding: 0 20px;
+    margin: 10px;
+    color: #E78200;
+    transition: .4s;
+}
+
+li a:hover {
+    background-color: rgb(231, 130, 0);
+    color: #fff;
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px rgba(231, 130, 0, .4);
+}
+
+
+
+
+
+
+
+/* Table starts here */
+#hours {
+    position: relative;
+    border: 8px solid #e65b59;
+    background-color: #EEEEEE;
+    min-height: 80vh;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+#hours .cell {
+
+    border: 2px solid rgb(231, 130, 0);
+    padding: 16px;
+    color: #5E5E5E;
+    background: url('../img/tick.png') no-repeat center center/cover;
+    background-size: 40%;
+}
