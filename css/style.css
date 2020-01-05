@@ -82,3 +82,126 @@ li a:hover {
     background: url('../img/tick.png') no-repeat center center/cover;
     background-size: 40%;
 }
+
+#hours .edit {
+    background-color: #e65b59;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+}
+
+
+
+
+
+
+#hours .edit button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 4em;
+}
+
+
+/* How page */
+
+.how h1 {
+    color: #e65b59;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.how .content .tech1 {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.how .content .tech2 {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.how .content p {
+    font-weight: bold;
+    margin: 20px;
+    text-align: center;
+}
+
+.how .content img {
+    padding: 20px;
+}
+
+
+/* Signin  */
+.signin {
+    background-color: #E78200;
+    width: 60%;
+    min-height: 60vh;
+    text-align: center;
+    margin: 0 auto;
+    border: 5px solid #5E5E5E;
+
+
+}
+
+.signin h1 {
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.signin .form {
+    display: flex;
+    flex-direction: column;
+    font-size: 80px;
+
+}
+
+.signin .form input {
+    padding: 30px;
+    border: 2px solid #E78200;
+
+}
+
+.signin .form input[type=submit] {
+    width: 40%;
+    outline: none;
+    margin: 20px auto;
+    background-color: #E78200;
+    border: 2px solid #e65b59;
+    border-radius: 10%;
+    color: #EEEEEE;
+
+}
+
+
+/* Plan */
+
+
+.task {
+    border: 4px solid #e65b59;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.task h1 {
+    text-align: center;
+    color: #E78200;
+}
+
+.task th {
+    border: 1px solid #c0c0c0;
+    padding: 10px;
+    background: #f0f0f0;
+    font-weight: 900;
+}
+
+.task td {
+    border: 1px solid #c0c0c0;
+    padding: 10px;
+}
+
+</style>
